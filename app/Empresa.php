@@ -9,6 +9,6 @@ class Empresa extends Model
     //
 
    public function cargos(){
-   		return $this->hasMany('App/Cargo')
+   		return $this->hasMany('App/Cargo');
    }
 }
