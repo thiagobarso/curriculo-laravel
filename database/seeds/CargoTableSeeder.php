@@ -14,7 +14,7 @@ class CargoTableSeeder extends Seeder
         DB::table('cargos')->insert([
         	[
         		'nome' => 'Técnico em Informática',
-        	 	'empresa_id' => DB::('empresas')->where('nome','Maranello Centro Automotivo')->value('id')->get()
+        	 	'empresa_id' => DB::('empresas')->where('nome','Maranello Centro Automotivo')->value('id')
         	],
         	[
         		'nome' => 'Operador de Teleprocessamento',
