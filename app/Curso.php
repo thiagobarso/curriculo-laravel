@@ -4,9 +4,9 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Cargo extends Model
+class Curso extends Model
 {
     public function empresa(){
-    	return $this->belongsTo('App\Empresa','empresa_id');
+    	return $this->belongsTo('App\Instituicao','instituicao_id');
     }
 }

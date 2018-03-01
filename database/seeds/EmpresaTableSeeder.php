@@ -11,7 +11,7 @@ class EmpresaTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('empresas')->insert([
+        DB::table('empresa')->insert([
         	[
         		'nome' => 'GEAP - Fundação de Seguridade Social',
         		'site' => 'https://www.geap.com.br/'
