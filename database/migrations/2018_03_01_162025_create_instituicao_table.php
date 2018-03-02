@@ -18,7 +18,6 @@ class CreateInstituicaoTable extends Migration
             $table->string('nome', 200);
             $table->string('site', 200);
             $table->timestamps();
-            $table->timestamps();
         });
     }
 

@@ -12,7 +12,7 @@ class CargoTableSeeder extends Seeder
     public function run()
     {
 
-        DB::table('cargos')->insert([
+        DB::table('cargo')->insert([
         	[
         		'nome' => 'Técnico em Informática',
         	 	'empresa_id' => DB::table('empresa')->select('id')->where('nome','Maranello Centro Automotivo')->value('id')

@@ -11,7 +11,7 @@ class PessoasTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('pessoas')->insert(
+        DB::table('pessoa')->insert(
         	[
         		'cpf' => '027.896.791-42',
         		'nome' => 'Thiago Barbosa Soares' 
